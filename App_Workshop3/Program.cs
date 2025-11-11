@@ -32,6 +32,10 @@
             Loops loops = new Loops();
             loops.RunLoops();
             Console.WriteLine();
+
+            Console.WriteLine("\n=== Task 6: Try Catch Finally ===");
+            ExceptionHandling exceptionHandling = new ExceptionHandling();
+            exceptionHandling.RunExceptionTasks();
         }
     }
 }
