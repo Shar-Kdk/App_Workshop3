@@ -26,6 +26,12 @@
             Console.WriteLine("\n=== Task 4: Switch ===");
             DayFinder dayFinder = new DayFinder();
             dayFinder.FindDay();
+            Console.WriteLine();
+
+            Console.WriteLine("\n=== Task 5: Loops ===");
+            Loops loops = new Loops();
+            loops.RunLoops();
+            Console.WriteLine();
         }
     }
 }
