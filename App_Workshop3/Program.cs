@@ -12,6 +12,13 @@
             op.Divide(8, 4);
             op.OddEvenFinder(7);
             Console.WriteLine();
+
+            Console.WriteLine("\n=== Task 2: Null Operations ===");
+            NullOperations nullOps = new NullOperations();
+            nullOps.PerformNullChecks();
+            Console.WriteLine();
+
+
         }
     }
 }
