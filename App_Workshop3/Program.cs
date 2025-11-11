@@ -18,7 +18,10 @@
             nullOps.PerformNullChecks();
             Console.WriteLine();
 
-
+            Console.WriteLine("\n=== Task 3: If-Else ===");
+            AgeChecker ageChecker = new AgeChecker();
+            ageChecker.CheckAge();
+            Console.WriteLine();
         }
     }
 }
