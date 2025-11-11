@@ -22,6 +22,10 @@
             AgeChecker ageChecker = new AgeChecker();
             ageChecker.CheckAge();
             Console.WriteLine();
+
+            Console.WriteLine("\n=== Task 4: Switch ===");
+            DayFinder dayFinder = new DayFinder();
+            dayFinder.FindDay();
         }
     }
 }
